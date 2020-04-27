@@ -1,0 +1,28 @@
+[
+    {
+        "shardId"   : 1,
+        "masters" : [
+            {
+                "host"      : "th-dev.japanwest.cloudapp.azure.com",
+                "port"      : 3306,
+                "user"      : "root",
+                "password"  : "TouchholicRoot!",
+                "database"  : "project-underworld-game",
+                "connectionLimit" : 3
+            }
+        ]
+    },
+    {
+        "shardId"   : 2,
+        "masters" : [
+            {
+                "host"      : "th-dev.japanwest.cloudapp.azure.com",
+                "port"      : 3306,
+                "user"      : "root",
+                "password"  : "TouchholicRoot!",
+                "database"  : "project-underworld-game",
+                "connectionLimit" : 3
+            }
+        ]
+    }
+]

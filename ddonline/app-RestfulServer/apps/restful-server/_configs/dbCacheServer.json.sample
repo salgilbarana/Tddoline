@@ -1,0 +1,4 @@
+{
+    "host" : "th-dev.japanwest.cloudapp.azure.com",
+    "port" : 6379
+}

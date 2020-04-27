@@ -1,0 +1,4 @@
+id;name;value;fvalue;ar_one;ar_two
+string;string;int;float;int[];int[,]
+OK;확인;1;0.1;[1,2,3,4];[[1,2],[3,4]]
+CANCEL;취소;2;0.2;[1,2,3,4,5];[[1,2],[3,4],[5,6]]

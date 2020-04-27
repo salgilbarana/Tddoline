@@ -1,0 +1,62 @@
+<html>
+<head>
+<style type="text/css">
+    @import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+    pre > code { font-family:D2Coding, NanumGothicCoding; };
+</style>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<% if (res) { %>
+    <h2>Response</h2>
+    <pre><code class="json"><%=JSON.stringify(res, null, 4)%></code></pre>
+<% } %>
+
+<h2>Debugs</h2>
+<pre><code class="apache trim">
+    status : <%=headers.status%>
+    execTime : <%=(headers.execMs/1000).toFixed(3)%> secs
+</code></pre>
+
+<% dbGameLogs.forEach(m => { %>
+    <h2>dbGameLogs (<%=m.shardId%>)</h2>
+    <pre><code class="sql trim">
+        <% for (let i=0; i<m.logs.length; i++) { %>
+            <%= m.logs[i].sql %><% if (m.logs[i].args) { %> ::: (<%= m.logs[i].args.join(', ') %>)<% } %>
+        <% } %>
+    </code></pre>
+<% }); %>
+
+<% if (daoCacheLogs.length > 0) { %>
+    <h2>daoCacheLogs</h2>
+    <pre><code class="redis trim">
+    <% daoCacheLogs.forEach(m => { %>
+        <%= m.cmd %> <%= m.args %>
+    <% }); %>
+    </code></pre>
+<% } %>
+<% if (err) { %>
+    <pre><code class="error" style="background:#bff7a5"><%=err.stack%></code></pre>
+<% } %>
+
+<script>
+    $('.trim').each((i, m) => {
+        let result = [];
+        let rows = m.innerHTML.split('\n');
+        for (let i=0; i<rows.length; i++) {
+            rows[i] = rows[i].trim();
+            if (!rows[i])
+                continue;
+            
+            result.push(rows[i]);
+        }
+        m.innerHTML = result.join('\n');
+    });
+
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

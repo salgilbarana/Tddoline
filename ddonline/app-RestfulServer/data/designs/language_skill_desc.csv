@@ -1,0 +1,11 @@
+key;korean;english
+string;string;string
+SKILL_TYPE_DESC_1;공격력이 {0}턴 동안 {1}% 증가한다.;Damage is increased by {1}% for {0} turns.
+SKILL_TYPE_DESC_2;방어력이 {0}턴 동안 {1}% 증가한다.;Armor increased by {1}% for {0} turns.
+SKILL_TYPE_DESC_3;체력이 {0}% 회복된다.;Heal for {0}% health.
+SKILL_TYPE_DESC_4;다음 스톤 생성 시 방해 스톤 {0}개 추가한다.;When creating the next stone, add {0} disturbing stones.
+SKILL_TYPE_DESC_5;스톤 획득 시 모든 스톤이 재배열 된다.;All stones are rearranged when a stone is acquired.
+SKILL_TYPE_DESC_6;캐릭터의 스킬 포인트를 초기화 한다.;Initializes the character's skill points.
+SKILL_TYPE_DESC_7;불 속성 공격력의 {0}배 만큼 즉시 데미지를 입힌다.;Fire Property Instantly deals {0} times damage.
+SKILL_TYPE_DESC_8;물 속성 공격력의 {0}배 만큼 즉시 데미지를 입힌다.;Instantly deals damage equal to {0} times Water damage.
+SKILL_TYPE_DESC_9;숲 속성 공격력의 {0}배 만큼 즉시 데미지를 입힌다.;Instantly inflicts damage as much as {0} times Forest damage.

@@ -1,0 +1,5 @@
+id;name;gachaIdRate;goldRate;minGold;maxGold;cashRate;minCash;maxCash;itemCntRate;itemIdRate;fixRewardItem
+int;string;int[,];int;int;int;int;int;int;int[,];int[,];int[,]
+1;보상상자;[[3,10]];100;100;500;100;1;4;[];[];[]
+2;잡텝뽑기;[];0;0;0;0;0;0;[[1,80],[2,20]];[[300000,100]];[]
+3;장비뽑기;[];0;0;0;0;0;0;[[1,80],[2,20]];[[400000,100],[410000,100],[420000,100],[430000,100],[440000,100]];[[300000,10]]

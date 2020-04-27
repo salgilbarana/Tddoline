@@ -1,0 +1,14 @@
+key;korean;english
+string;string;string
+SKILL_NAME_200000;공격력 증가;Attack Damage Increase
+SKILL_NAME_200001;방어력 증가;Increase defense
+SKILL_NAME_200002;체력 회복;Health recovery
+SKILL_NAME_200003;파이어 스트라이크;Fire strike
+SKILL_NAME_200004;워터 스트라이크;Water strike
+SKILL_NAME_200005;포레스트 스트라이크;Forest Strike
+SKILL_NAME_250000;몬스터 공격력 증가;Monster Attack Power Increase
+SKILL_NAME_250001;몬스터 방어력 증가;Monster Defense Increase
+SKILL_NAME_250002;몬스터 체력 회복;Monster Health Recovery
+SKILL_NAME_250003;방해스톤 추가;Disturbance Stone
+SKILL_NAME_250004;스톤 재배열;Stone rearrangement
+SKILL_NAME_250005;스킬포인트 초기화;Skill Point Initialization

@@ -1,0 +1,7 @@
+id;type;elementalType;grade;name;resourceName;atk;hp;heal;weightValueId;evolveMaterial;evolveItem;maxLv
+int;int;int;int;string;string;int;int;int;int;int[,];int;int
+400000;0;1;1;연습용 불검;dagger;20;5;0;1;[];0;20
+410000;1;2;1;초보자 물셔츠;novice;3;50;1;1;[];0;20
+420000;2;3;1;초보자 나무 서클릿;wing;6;1;1;1;[];0;20
+430000;3;4;1;빛 글러브;leather;10;0;1;1;[];0;20
+440000;4;5;1;암흑 목거리;ring;2;8;2;1;[];0;20

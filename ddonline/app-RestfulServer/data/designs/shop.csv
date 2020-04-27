@@ -1,0 +1,16 @@
+id;imgName;explain;tab;refType;refId;refCnt;inAppName;price
+int;string;string;int;int;int;int;string;string
+10;ui_skill01;금똥 100;1;1;1;100;aaa;1000원
+20;ui_skill02;금똥 500;1;1;1;500;bbb;5000원
+30;ui_skill01;금똥 900;1;1;1;100;aaa;1000원
+40;ui_skill02;금똥 1300;1;1;1;500;bbb;5000원
+50;ui_skill01;금똥 1700;1;1;1;100;aaa;1000원
+60;ui_skill02;금똥 2100;1;1;1;500;bbb;5000원
+70;ui_skill01;금똥 2500;1;1;1;100;aaa;1000원
+80;ui_skill02;금똥 2900;1;1;1;500;bbb;5000원
+90;ui_skill01;금똥 3300;2;1;1;100;aaa;1000원
+100;ui_skill02;금똥 3700;2;1;1;500;bbb;5000원
+110;ui_skill01;금똥 4100;3;1;1;100;aaa;1000원
+120;ui_skill02;금똥 4500;3;1;1;500;bbb;5000원
+130;ui_skill01;금똥 4900;3;1;1;100;aaa;1000원
+140;ui_skill02;금똥 5300;1;1;1;500;bbb;5000원

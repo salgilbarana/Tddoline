@@ -1,0 +1,8 @@
+{
+    "name"              : "DDOnline-Restful",
+    "script"            : "./app.js",
+    "instances"         : "max",
+    "args"              : [13002],
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "exec_mode"         : "cluster"
+}

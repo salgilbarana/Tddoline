@@ -1,0 +1,4 @@
+id;materialExp;itemExp;upgradeCost;craftCost;upgradeHp;upgradeAtk;upgradeHeal
+int;float;float;int;int;float;float;float
+1;1000;100;100;1000;1;1;1
+2;10;0;20;20;2;2;2

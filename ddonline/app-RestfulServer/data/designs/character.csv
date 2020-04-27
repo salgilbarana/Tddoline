@@ -1,0 +1,4 @@
+id;skinName;skillId;speed;slope;rebound;life
+int;string;int;float;float;float;int
+100;kid;1;0.005;0.9;0.5;1
+101;smartgirl;2;0.004;0.87;0.55;1

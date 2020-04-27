@@ -1,0 +1,3 @@
+id;type;elementalType;grade;name;resourceName;weightValueId
+int;int;int;int;string;string;int
+300000;0;5;1;암흑 루비;ruby;2

@@ -1,0 +1,25 @@
+key;korean;english
+string;string;string
+ALREADY_NAME_EXIST;이미 존재하는 닉네임 입니다.;
+ALREADY_CHID_EXIST;이미 동일한 채널 아이디가 존재합니다.;
+MATCH_WAITING;매칭 상대를 찾는중...\n{0} 초..;
+MATCH_NOT_FOUND;매칭 상대를 찾지 못했습니다.\n 잠시후에 다시 시도해주세요!;
+MATCH_COMPLETE;매칭 완료!;
+MATCH_CONNECT_ERROR;서버 연결 실패;
+CHAR_NAME_100;겁많은 소년;
+CHAR_SAY_100;똥이 너무 많아;
+SKILL_NAME_1;투명인간;
+SKILL_EXPLAIN_1;{0}초 동안 상대방이 내 시야에서 사라짐;
+CHAR_NAME_101;똑똑한 소녀;
+CHAR_SAY_101;배울게 너무 많아;
+SERVER_REQUESTING;서버 요청중..;
+SKILL_NAME_2;모세의 기적;
+SKILL_EXPLAIN_2;내 위로 떨어지는 똥을 제거함.\n{0}초 후 재사용 가능.;
+TOTAL_GAME_CNT;총 게임 수 : {0};
+WIN_GAME_CNT;승리 횟수 : {0};
+LOSE_GAME_CNT;패배 횟수 : {0};
+WIN_RATE;승률 : {0}%;
+TOTAL_ACC_GP;총 획득 금똥 : {0};
+TOTAL_ACC_SP;총 획득 은똥 : {0};
+TOTAL_ACC_BP;총 획득 동똥 : {0};
+TOTAL_HAVE_CHAR;캐릭터 보유 : {0}/{1};

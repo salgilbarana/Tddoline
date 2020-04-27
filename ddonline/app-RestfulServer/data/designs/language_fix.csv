@@ -1,0 +1,12 @@
+key;korean;english
+string;string;string
+OK;확인;Ok
+CANCEL;취소;Cancel
+EXIT;게임을 종료하시겠습니까?;Do you want to quit the game?
+NO;아니오;No
+YES;네;Yes
+LOADING;로딩중...;Loading…
+NETWORK_NOT_CONNECT;네트워크 연결상태를 확인해주세요.;Network Not Connect
+GAME_UPDATE;클라이언트 업데이트;Client updated
+GAME_UPDATE_DESC;클라이언트가 업데이트 되었습니다@마켓으로 이동합니다.;Client has been updated.@Moving to the store.
+CSV_UPDATE;데이터 업데이트가 진행되었습니다.@게임을 재시작합니다.;Data update in progress.@Restarting the game.
